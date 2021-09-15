@@ -1,0 +1,122 @@
+.container-div{
+    background-color: #192c3f;
+    min-height: 100%;
+}
+// .img-div{
+//     // height:100%;
+//     // width: 100%;
+//     height: auto;
+//     width: auto;
+//     @media only screen and (max-width: 992px) {
+//     height: auto;
+//     width: auto;
+//       }
+// }
+
+img{
+    padding-top: 4rem;
+    max-width: 45%;
+    max-height: 500px;
+    padding-left: 30px;
+   }
+   
+   .mainText{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 27px;
+    margin-left: 5rem;
+   }
+   .innerText{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 5rem;
+   }
+   .form-col{
+    padding-top: 78px;
+    justify-content: center;
+    padding-bottom: 30px;
+   
+   }
+
+.form-div{
+    background-color: white;
+    min-height: 600px;
+    height: auto;
+    width: 85%;
+    border-radius: 13px;
+    text-align: left;
+    position: relative;
+    @media only screen and (max-width: 1270px) {
+        width: 90%;
+    }
+    @media only screen and (max-width: 1203px) {
+        width: 95%;
+    }
+    @media only screen and (max-width: 1144px) {
+        width: 100%;
+    }
+    @media only screen and (max-width: 992px) {
+        width: 85%;
+    }
+}
+.loginForm{
+    height: 61px;
+    width: 83%;
+    margin-left: 31px;
+    border-radius: 7px;
+    font-family: 'Comfortaa', cursive;
+}
+label{
+    margin-left: 31px;
+}
+.Login-btn{
+    margin-top: 100px;
+    font-size: 24px;
+    margin-left: 40%;
+    background-color: #676b6f;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+.forget-pass{
+    font-size: 13px;
+    color: #656e77;
+    font-family: 'Comfortaa', cursive;
+    position: absolute;
+    right: 37px;
+    @media only screen and (max-width: 992px) {
+        margin-left: 279px;
+     }
+}
+.normlTxt{
+    font-size: 13px;
+    color: #656e77;
+    margin-left: 125px;
+    @media only screen and (max-width: 992px) {
+        margin-left: 233px;
+     }
+}
+.signUpForm{
+    height: 40px;
+    width: 80%;
+    margin-left: 31px;
+    border-radius: 7px;
+    font-family: 'Comfortaa', cursive;
+}
+.signup-btn{
+    margin-top: 30px; 
+    font-size: 24px;
+    margin-left: 40%;
+    background-color: #676b6f;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+.signupTxt{
+    font-size: 13px;
+    color: #656e77;
+    margin-left: 125px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,68 @@
+<div class="container-fluid container-div">
+<div class="row img-div" >
+  <div class="col-lg-8 col-md-12 col-xs-12 content-col">
+<div class="img-div2">
+  <img src="/assets/nikita.png" alt="">
+</div>
+<div>
+  <p class="mainText">Welcome!</p>
+  <p class="innerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci, maxime corrupti tempore sequi non consequuntur molestias vitae ea deserunt doloremque illo, inventore dicta! Debitis, voluptate. Voluptatem perferendis expedita fuga.</p>
+</div>
+  </div>
+  <div class="col-lg-4 form-col" align="center" >
+    <div class="form-div">     
+          <mat-tab-group mat-align-tabs="center">
+              <mat-tab label="Log in">
+                  <form [formGroup]="Loginform" (ngSubmit)="Submit(Loginform.value)">
+                      <div class="form-group" style="margin-top: 90px;">
+                        <label id="emailHelp" class="form-text text-muted">Email/Mobile Number</label>
+                        <input type="email" formControlName="email" class="form-control loginForm " id="exampleInputEmail1" placeholder="Enter email">
+                      </div>
+                      <div class="form-group" style="margin-top: 32px;">
+                          <label id="emailHelp" class="form-text text-muted">Password</label>
+                        <input type="password" formControlName="password" class="form-control loginForm" id="exampleInputPassword1" placeholder="Password">
+                        <span class="forget-pass">Forget Password</span>
+                      </div>
+                      <button type="login" class="btn btn-primary Login-btn">Login</button>
+                      <p class="normlTxt">Not a member yet?<b>Register</b></p>
+                    </form>
+              </mat-tab>
+              <mat-tab label="Signup">
+                <form >
+                  
+                  <div class="form-group" style="margin-top: 30px;">
+                    <label id="name" class="form-text text-muted">Full Name</label>
+                    <input type="text" class="form-control signUpForm" id="exampleInputName" placeholder="Name">
+                </div>
+                  <div class="form-group" style="margin-top: 15px;">
+                    <label id="emailHelp" class="form-text text-muted">Email</label>
+                    <input type="email" class="form-control signUpForm" id="exampleInputEmail1" placeholder="Enter email">
+                  </div>
+                  <div class="form-group" style="margin-top: 15px;">
+                    <label id="emailHelp" class="form-text text-muted">Mobile Number</label>
+                    <input type="number" class="form-control signUpForm" id="exampleInputMobile" placeholder="Number">
+                  </div>
+                  <div class="form-group" style="margin-top: 15px;">
+                    <label id="emailHelp" class="form-text text-muted">Gender</label>
+                  <input type="password" class="form-control signUpForm" id="exampleInputGender" placeholder="Gender">
+                </div>
+                  <div class="form-group" style="margin-top: 15px;">
+                    <label id="emailHelp" class="form-text text-muted">Password</label>
+                    <input type="number" class="form-control signUpForm" id="exampleInputMobile" placeholder="Password">
+                  </div>
+                  <div class="form-group" style="margin-top: 15px;">
+                    <label id="emailHelp" class="form-text text-muted">Password</label>
+                    <input type="number" class="form-control signUpForm" id="exampleInputMobile" placeholder="Password">
+                  </div>
+                  <button type="btn" class="btn btn-primary signup-btn">Register</button>
+                  <p class="signupTxt">Already a member ?<b>Login</b></p>
+                </form>
+              </mat-tab>
+            </mat-tab-group>
+      </div>
+  </div>
+
+</div>
+</div>
+
+
